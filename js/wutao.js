@@ -12,7 +12,7 @@ window.onload=function(){
   var st=document.documentElement.scrollTop||document.body.scrollTop;
   if(st>10){
     cover.style.position="fixed";
-    cover.style.zIndex="40000";
+    cover.style.zIndex="90000";
   }else{
     cover.style.position="static";
   }
@@ -99,9 +99,17 @@ timer = setInterval(next, 3000);
 var b1 = document.getElementById("b1");
 var b2 = document.getElementById("b2");
 var b3 = document.getElementById("b3");
+var b4 = document.getElementById("b4");
+
+
 var littlewei = document.getElementById("littlewei");
 var bigwei = document.getElementById("bigwei");
-var b4 = document.getElementById("b4");
+
+
+window.onload=function(){
+	littlewei.style.display="block";
+	bigwei.style.display="none";
+}
 b1.onmouseover = function(){
 	b1.style.marginRight = "0";
 }
