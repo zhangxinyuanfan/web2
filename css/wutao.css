@@ -422,52 +422,58 @@ a{
 
 /* 右边浮动 */
 #b1{
+	margin-right: -80px;
 	right: 0px;
-	top: 65px;
+	top: 90px;
 	position: fixed;
 	width: 123px;
 	height: 100px;
-	margin-right: -80px;
-	z-index: 99999;
 }
-#x1{
-	margin-bottom: -4px;
-}
+
  #b2{
+ 	margin-top: 4px;
+ 	margin-right: -80px;
  	right: 0px;
-	top: 170px;
+	top: 195px;
 	position: fixed;
 	width: 123px;
 	height: 140px;
-	margin-top: 5px;
 	background-color: #ff9260;
-	margin-right: -80px; 
-	margin-top: 5px;
 }
+.denglu{
+	width: 52px;
+	height: 19px;
+	color: white;
+	font-size: 13px;
+	text-align: center;
+	background-color: #ff9260 ;
+	margin-top: 10px;
+	border:1px solid white;
+	border-radius: 3px;
+}
+
 #b3{
+	margin-top: 4px;
+	margin-right: -80px;
 	right: 0px;
-	top: 315px;
+	top: 340px;
 	position: fixed;
 	width: 123px;
 	height: 150px;
 	background-color: #ff9260;
-	margin-top: 5px;
-	margin-right: -80px;
+	
 }
 #b4{
+	margin-top: 4px;
+	margin-right: -80px;
 	right: 0px;
-	top: 470px;
+	top: 495px;
 	position: fixed;
 	width: 123px;
 	height: 140px;
 	background-color: #ff9260;
-	margin-top: 2px;
-	margin-right: -80px;
+	
 } 
-#daerweima{
-	margin-left: 15px;
-	display: none;
-}
 
 .cover{ 
  	background-color: #fff;
